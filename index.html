@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message for you</title>
+    <style>
+    body, 
+    html {
+      margin: 0;
+        padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .body {
+      background: beige;
+      display: flex;
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      width: 100%;
+    }
+    .image-box {
+      display: inline-block;
+      width: 80%;
+      max-width: 200px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .image-box img {
+      width: 100%;
+      display: block;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #1560BD;
+      margin: 20px 0;
+      text-align: center;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .next-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #1560BD;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+
+    .next-button:hover {
+      background-color: #1560BD;
+    }
+
+  </style>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+<body>
+    <audio autoplay loop>
+        <source src="birthdaysong.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+        </audio>
+        <div class="container">
+            <h2 class="question">HAPPY BIRTHDAY MIRNA </h2>
+            <img src="Birthday.gif" alt="" />
+            <div class="btn-group">
+                <button><a href="yes.html" class="next-button"><strong>yes</strong></a></button>
+                <button class="next-button">No</button>
+                </div>
+            </div>
+             <script src="script.js"></script>
+            </body>
+            </html>
